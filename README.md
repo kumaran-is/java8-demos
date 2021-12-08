@@ -1,6 +1,3 @@
-# spring-webflux-postgres-demo
-To show-case the Spring Webflux with Postgres database
+# java8-demos
+To showcase and understand the Java 8 features like Lambda expression, Function Interface, Streams, Optional etc
 
-
-# Swagger for a Spring Webflux REST Service
-Navigate to Swagger UI <http://localhost:8080/swagger-ui/>

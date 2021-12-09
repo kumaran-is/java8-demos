@@ -6,11 +6,13 @@ public class Lambda9CollectionIteration {
 	public static void main(String[] args) {
 		
 		List<Person> people = Arrays.asList(
-				new Person("Charles", "Dickens", 60),
-				new Person("Lewis", "Carroll", 42),
-				new Person("Thomas", "Carlyle", 51),
-				new Person("Charlotte", "Bronte", 45),
-				new Person("Matthew", "Arnold", 39)
+				new Person("Charles", "Dickens", 60, Gender.MALE),
+				new Person("Lewis", "Carroll", 42, Gender.MALE),
+				new Person("Thomas", "Carlyle", 51, Gender.MALE),
+				new Person("Charlotte", "Bronte", 45, Gender.MALE),
+				new Person("Matthew", "Arnold", 39, Gender.MALE),
+				new Person("Jamie", "Goa", 22, Gender.FEMALE),
+				new Person("Anna", "Cook", 18, Gender.FEMALE)
 			);
 		
 		for(int i =0; i <people.size();  i++) {
